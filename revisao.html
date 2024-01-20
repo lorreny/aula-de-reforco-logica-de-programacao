@@ -1,1 +1,107 @@
+Variáveis - variável é um local onde guardo uma informação. é algo onde posso guardar e pegar algo.
 
+Temos os seguintes tipos
+String - "" - ''
+int - somente o número, qualquer número, positivo e negativo
+float - o float é representado por .
+bool - true or false, valores lógicos, True e False
+
+Temos também operadores
+crio a variavel, atribui, valor
+nome = "valor"
+nome recebe o valor
+
+adição +
+subtração -
+divisão /
+Divisão inteira //
+multiplicação *
+potenciação ou exponenciação **
+módulo ou resto %
+
+Entrada de dados
+Fazemos a entrada de dados com input()
+input("E a informação")
+O input devolve o valor de uma String
+resposta = input("Digite algo")
+
+Temos também a saida de dados
+print(resposta)
+
+Operadores de comparação, ele serve para compara 
+Igualde ==
+Diferença !=
+Maior que >
+Menor que <
+Maior ou igual >=
+Menor ou igual <=
+
+Condicionais
+Maneiras de tomar decisao no nosso codigo, caso uma condição seja atendida será executado fará algo...
+if e a condição pra executa o código
+if numero > 5:
+Se numero for maior que 5 então, execute
+print("numero é maior que 5")
+
+Se a condição acima não for atendida posso colocar o else
+if numero > 5:
+Se numero for maior que 5 então, execute
+print("numero é maior que 5")
+senão
+else:
+print("O número não é maior que 5")
+
+Temos também uma combição do senão com se elif
+if numero > 5:
+Se numero for maior que 5 então, execute
+print("numero é maior que 5")
+se não se
+elif numero > 3:
+print("O numero é maior que 3")
+senão
+else:
+print("O número não é maior que 5")
+
+Posso colocar varios elif e também posso não ter o else, posso ter somente if, a ordem das condições são importante, se inverter numero maior que 3 para numero maior que 5 ele não chega na próxima condição, pois ele já checou a primeira condição.
+
+Operadores
+and = e
+se numero for menor que 5 e numero for maior que 10, só será excutado se as 2 condições forem verdadeiras
+numero > 5 and numero < 10 
+Só será retornado se a condição for verdadeira
+
+or
+numero menor que 4 ou numero maior ou igual a 10, apenas 1 deles precisa ser verdadeiro
+numero < 5 or numero >= 10
+1 valor ou outro
+Idependente de qual for o resultado é verdadeiro
+
+not - ele pega um boleano e inverte.
+not True #False
+not False #True
+O not inver só é verdadeiro se o numero for maior que 5
+not numero < 5
+
+Para compartilhar as informações
+dontpad.com
+
+https://colab.research.google.com/drive/1fyDbqpzykRIP4LavGr2rpc6nL5bT_Ok6#scrollTo=6sRRj1ZvAABf
+
+https://dontpad.com/inflogica-2001
+
+Estrutura que serve para repertimos uma estrutura de código
+no lugar de colocar o print("Olá") muitas vezes, não precisamos, podemos usar uma estrutura de condição
+Temos o for e while
+for serve para percorrermos coleção de dados, então percorro essa coleção de dados.
+texto = "abcd"
+for caractere in texto
+print (caractere)
+Para pegar um intervalo
+range() 
+print(list(range(50)))
+print(list(range(2,30)))
+print(list(range(2,30,3))) #o terceiro número é para pular
+
+for num in range(50)
+print("Olá")
+print(f"Olá", {num})
